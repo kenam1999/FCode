@@ -1,0 +1,36 @@
+001
+01/10/2018
+Quy thu thang 10
++1000000
+002
+15/11/2018
+Giai thuong cho buoi hop mat thanh vien K14
+-700000
+003
+01/11/2018
+Quy thu thang 11
++1000000
+004
+21/12/2018
+Thue phong thuyet trinh tuyen thanh vien K14
+-1200000
+005
+22/01/2019
+Phi tham gia ngay hoi tuyen sinh
++1000000
+006
+30/01/2019
+Thuong sinh vien top 1 khoa "Train C"
+-500000
+007
+01/12/2018
+Quy thu thang 12
++1000000
+008
+01/01/2019
+Quy thu thang 1
++1000000
+009
+01/02/2019
+Quy thu thang 2
++1000000

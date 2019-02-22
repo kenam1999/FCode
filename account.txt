@@ -1,0 +1,51 @@
+SE100090 090 10 Nam Nguyen Trong Nhan
+SE100091 091 10 Nu Nguyen Thi Kim Oanh
+SE112222 222 11 Nu Nguyen Thi A
+SE112233 233 11 Nam Nguyen Van A
+SE111111 111 11 Nam Nguyen Van A
+SE111122 122 11 Nam Nguyen Van Ca
+SE110100 100 11 Nam Truong Duy Khanh
+SE110101 101 11 Nam Nguyen Hoang Long
+SE110102 102 11 Nu Mai Thi Mong Tuyen
+SE123412 412 12 Nu Nguyen Thi A
+SE122222 222 12 Nam Nguyen Van B
+SE120110 110 12 Nam Bui Cong Gia Bao
+SE120000 000 12 Nam Nguyen Van Be
+SE120111 111 12 Nam Nguyen Minh Chanh
+SE120112 112 12 Nu Huynh Thi Truc Dao
+SE120113 113 12 Nam Cao Dinh Day
+SE120114 114 12 Nam Tran Nhat Duy
+SE120116 116 12 Nu Vo Pham Thuy Hien
+SE120115 115 12 Nu Nguyen Thi Kim Hong
+SE120888 888 12 Nam Tran Hoang Long
+SE120117 117 12 Nu Cao Thi Kim Ngan
+SE120118 118 12 Nu Nguyen Thi Thanh Ngan
+SE122323 323 12 Nam Nguyen Van Qua
+SE133232 232 13 Nam Tran Van An
+SE130120 120 13 Nam Truong Van An
+SE130121 121 13 Nu Phan Hue Anh
+SE130122 122 13 Nam Pham Duc Binh
+SE133333 333 13 Nam Nguyen Van C
+SE130111 111 13 Nu Nguyen Thi Giang
+SE130112 112 13 Nam Nguyen Van Giang
+SE130123 123 13 Nu Truong Le Song Giao
+SE130124 124 13 Nam Nguyen Phu Hung
+SE130125 125 13 Nu Nguyen Thi Yen Linh
+SE130127 127 13 Nam Tran Huu Loc
+SE130126 126 13 Nam Nguyen Quoc Loc
+SE130128 128 13 Nu Tran Thi Kim Nga
+SE132132 132 13 Nu Nguyen Thi Nhi
+SE120119 119 13 Nu Truong Nguyen Yen Nhi
+SE130129 129 13 Nam Tran Thien Phuc
+SE130130 130 13 Nu Tran Thuy Thuy Tien
+SE140827 827 14 Nu Nguyen Thi Thanh Ngan 
+SE141111 111 14 Nam Nguyen Van An
+SE140954 954 14 Nu Vu Thu Giang
+SE140832 832 14 Nam Nguyen Mau Hieu
+SE140830 830 14 Nu Luu Dieu Hoa
+SE140956 956 14 Nu Tran Nguyen Truc Ly
+SE140831 831 14 Nam Nguyen Ke Nam
+SE140736 736 14 Nu Phong Thanh Nhi
+SE140910 910 14 Nu Pham Thanh Phuong
+SE140867 867 14 Nam Phung Dang Tam
+SE141414 414 14 Nu Nguyen Ngoc Son Hai Van

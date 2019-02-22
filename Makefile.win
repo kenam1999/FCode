@@ -1,0 +1,40 @@
+# Project: Project2
+# Makefile created by Dev-C++ 5.11
+
+CPP      = g++.exe
+CC       = gcc.exe
+WINDRES  = windres.exe
+OBJ      = main.o print_logo.o gotoxy.o print_menu.o decentralize.o
+LINKOBJ  = main.o print_logo.o gotoxy.o print_menu.o decentralize.o
+LIBS     = -L"D:/program files/Dev-Cpp/MinGW64/lib" -L"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+INCS     = -I"D:/program files/Dev-Cpp/MinGW64/include" -I"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
+CXXINCS  = -I"D:/program files/Dev-Cpp/MinGW64/include" -I"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
+BIN      = manage.exe
+CXXFLAGS = $(CXXINCS) -std=c99
+CFLAGS   = $(INCS) -std=c99
+RM       = rm.exe -f
+
+.PHONY: all all-before all-after clean clean-custom
+
+all: all-before $(BIN) all-after
+
+clean: clean-custom
+	${RM} $(OBJ) $(BIN)
+
+$(BIN): $(OBJ)
+	$(CC) $(LINKOBJ) -o $(BIN) $(LIBS)
+
+main.o: main.c
+	$(CC) -c main.c -o main.o $(CFLAGS)
+
+print_logo.o: print_logo.c
+	$(CC) -c print_logo.c -o print_logo.o $(CFLAGS)
+
+gotoxy.o: gotoxy.c
+	$(CC) -c gotoxy.c -o gotoxy.o $(CFLAGS)
+
+print_menu.o: print_menu.c
+	$(CC) -c print_menu.c -o print_menu.o $(CFLAGS)
+
+decentralize.o: decentralize.c
+	$(CC) -c decentralize.c -o decentralize.o $(CFLAGS)

@@ -1,0 +1,75 @@
+001
+Mobile World Congress 2019
+25/02/2019
+Barcelona
+The world's biggest mobile trade show marks another year in Barcelona with a stellar line_up of speakers and exhibitors.
+002
+RSA Conference 2019
+04/03/2019
+San Francisco
+RSA Conference 2019 returns to San Francisco _ take this opportunity to learn about new approaches to info security.
+003
+Data Centre World
+12/03/2019
+London
+Data Centre World brings together the world's leading minds, from industry leaders & practitioners.
+004
+Smart Home Expo
+26/03/2019
+Birmingham
+Smart Home Expo is the UK's ultimate event for the smart technologies revolutionising the way we live.
+005
+Blockchain Expo Global
+25/04/2019
+London
+The world’s largest blockchain conference and exhibition focuses on the future of enterprise technology.
+006
+Accountex
+02/05/2019
+London
+Accountex will have the opportunity to gain insights from over 250 top exhibitors and immerse themselves in accounting expertise with a programme of over 250 keynotes and seminars delivered by Leading industry experts. 
+007
+Open Source Data Conference
+14/05/2019
+Berlin
+Innovative strategies, forward_looking developments and new perspectives in dealing with complex data centers are the topics of OSDC.
+008
+Digital Transformation
+15/05/2019
+London
+Tackling the challenges of successful transformation head on and will feature a diverse set of tracks and streams to cover the entire digital ecosystem.
+009
+WSJ D.LIVE
+13/06/2019
+Hong Kong, China
+Over two days, you will join the world's technology leaders, investors, CEOs and innovators from around the world to set the global tech agenda.
+010
+EdTechXEurope
+18/06/2019
+London, UK
+EdTechXEurope is the leading thought leader summit bringing together executive level investors and industry influencers from international education companies.
+011
+CFO Rising Summit
+01/07/2019
+Singapore
+The unstable and fast changing economic environment might make the role of CFO more challenging. The summit will provide a platform for CFOs to discuss about how to be well prepared for the challenges.
+012
+Digital Publishing Innovation Summit Labs
+02/07/2019
+New York, NY
+This premier event will feature exclusive talks, panels, and trend briefings from the world's most sought after publishing, media, and online leaders _ to guide you through the incoming Digital Media Apocalypse.
+013
+RISE
+08/07/2019
+Hong Kong, China
+People from the world’s biggest companies and most exciting startups come to Hong Kong to share their stories and experiences at RISE.
+014
+FullStack London 2019
+10/07/2019
+London, UK
+FullStack 2019 returns to London in its sixth edition during July. Now hosted at the Business Design Centre, FullStack London has been growing each year and still remains the best place to connect with the international JavaScript community.
+015
+Future Festival: Philadelphia
+17/07/2019
+Philadelphia, PA
+The Philadelphia Innovation Event is a one-day training program that will teach you and your team how to accelerate innovation, and ultimately find better ideas, faster.

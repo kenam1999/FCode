@@ -1,2 +1,0 @@
-# FCode
-Management Project

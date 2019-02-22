@@ -1,0 +1,1 @@
+int decentralizeStu(char username[]);
