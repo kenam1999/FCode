@@ -329,3 +329,168 @@ int printAnnouncementMenuA(int* pNum){
 	} while(letter != 27);
 	system("cls");
 }
+
+int printMemberMenuA(int* pNum){
+
+	int position = 1;
+	char letter;
+	int inputted = 1;
+	*pNum = 0;
+	do{		
+		gotoxy(0, 14);
+		printf("%40.0s");
+		printfGreen("MEMBER MENU\n\n");
+		printf("%40.0s");
+		if (position == 1) printfH("Print list of members\n"); 
+		else printf("Print list of members\n");
+		printf("%40.0s");
+		if (position == 2) printfH("Search for members\n");
+		else printf("Search for members\n");
+		printf("%40.0s");
+		if (position == 3) printfH("Add members\n");
+		else printf("Add members\n");
+		printf("%40.0s");
+		if (position == 4) printfH("Delete members\n");
+		else printf("Delete members\n");
+		printf("%40.0s");
+		if (position == 5) printfH("Edit information\n");
+		else printf("Edit information\n");
+		printf("%40.0s");
+		if (position == 6) printfH("Your account\n");
+		else printf("Your account\n");
+		printf("%40.0s");
+		if (position == 7) printfH("Exit\n");
+		else printf("Exit\n");
+
+		
+		do
+		{
+			inputted = 0;
+			fflush(stdin);
+			letter = getch();
+				if (letter == - 32){
+					letter = getch();
+					if((letter == 80) && position < 7 ) {
+						position ++;
+						inputted = 1;
+//						printf("ok, %d\n", position);
+					}if((letter == 72) && position > 1) 
+					{
+						position --;
+						inputted = 1;
+//						printf("ok, %d\n", position);
+					}	
+				}
+				if (letter == 13) {
+						*pNum = position;
+						letter = 27;
+						inputted = 0;
+				}
+		} while(letter != 27 && inputted != 1);
+
+	} while(letter != 27);
+	system("cls");
+}
+
+int printMemberMenuM(int* pNum){
+
+	int position = 1;
+	char letter;
+	int inputted = 1;
+	*pNum = 0;
+	do{		
+		gotoxy(0, 14);
+		printf("%40.0s");
+		printfGreen("MEMBER MENU\n\n");
+		printf("%40.0s");
+		if (position == 1) printfH("Print list of members\n"); 
+		else printf("Print list of members\n");
+		printf("%40.0s");
+		if (position == 2) printfH("Search for members\n");
+		else printf("Search for members\n");		
+		printf("%40.0s");
+		if (position == 3) printfH("Your account\n");
+		else printf("Your account\n");
+		printf("%40.0s");
+		if (position == 4) printfH("Exit\n");
+		else printf("Exit\n");
+
+		
+		do
+		{
+			inputted = 0;
+			fflush(stdin);
+			letter = getch();
+				if (letter == - 32){
+					letter = getch();
+					if((letter == 80) && position < 4 ) {
+						position ++;
+						inputted = 1;
+//						printf("ok, %d\n", position);
+					}if((letter == 72) && position > 1) 
+					{
+						position --;
+						inputted = 1;
+//						printf("ok, %d\n", position);
+					}	
+				}
+				if (letter == 13) {
+						*pNum = position;
+						letter = 27;
+						inputted = 0;
+				}
+		} while(letter != 27 && inputted != 1);
+
+	} while(letter != 27);
+	system("cls");
+}
+
+int printAccSettingMenu(int* pNum){
+
+	int position = 1;
+	char letter;
+	int inputted = 1;
+	*pNum = 0;
+	do{		
+		gotoxy(0, 14);
+		printf("%40.0s");
+		printfGreen("ACCOUNT SETTING MENU\n\n");
+		printf("%40.0s");
+		if (position == 1) printfH("Edit your information\n"); 
+		else printf("Edit your information\n");
+		printf("%40.0s");
+		if (position == 2) printfH("change your password\n");
+		else printf("change your password\n");		
+		printf("%40.0s");
+		if (position == 3) printfH("Exit\n");
+		else printf("Exit\n");
+
+		
+		do
+		{
+			inputted = 0;
+			fflush(stdin);
+			letter = getch();
+				if (letter == - 32){
+					letter = getch();
+					if((letter == 80) && position < 3 ) {
+						position ++;
+						inputted = 1;
+//						printf("ok, %d\n", position);
+					}if((letter == 72) && position > 1) 
+					{
+						position --;
+						inputted = 1;
+//						printf("ok, %d\n", position);
+					}	
+				}
+				if (letter == 13) {
+						*pNum = position;
+						letter = 27;
+						inputted = 0;
+				}
+		} while(letter != 27 && inputted != 1);
+
+	} while(letter != 27);
+	system("cls");
+}

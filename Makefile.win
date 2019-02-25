@@ -4,9 +4,9 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o print_logo.o gotoxy.o print_menu.o decentralize.o
-LINKOBJ  = main.o print_logo.o gotoxy.o print_menu.o decentralize.o
-LIBS     = -L"D:/program files/Dev-Cpp/MinGW64/lib" -L"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib" -static-libgcc
+OBJ      = main.o print_logo.o gotoxy.o print_menu.o decentralize.o choice.o getAcc.o menu.o
+LINKOBJ  = main.o print_logo.o gotoxy.o print_menu.o decentralize.o choice.o getAcc.o menu.o
+LIBS     = -L"D:/program files/Dev-Cpp/MinGW64/lib" -L"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib"
 INCS     = -I"D:/program files/Dev-Cpp/MinGW64/include" -I"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/program files/Dev-Cpp/MinGW64/include" -I"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
 BIN      = manage.exe
@@ -38,3 +38,12 @@ print_menu.o: print_menu.c
 
 decentralize.o: decentralize.c
 	$(CC) -c decentralize.c -o decentralize.o $(CFLAGS)
+
+choice.o: choice.c
+	$(CC) -c choice.c -o choice.o $(CFLAGS)
+
+getAcc.o: getAcc.c
+	$(CC) -c getAcc.c -o getAcc.o $(CFLAGS)
+
+menu.o: menu.c
+	$(CC) -c menu.c -o menu.o $(CFLAGS)

@@ -36,9 +36,6 @@ void printFCode(){
 	printf("%40.0s      _\\/\\\\\______________________________\\////\\\\\\\\\\\\\\\\\\__\\///\\\\\\\\\\/___\\//\\\\\\\\\\\\\\/\\\\__\\//\\\\\\\\\\\\\\\\\\\\__\n");
 	printf("%40.0s       _\\///________________________________\\/////////_____\\/////______\\///////\\//____\\//////////____\n");
 	SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), 0x0F);
-	delay(1);
-//	getch();
-	system("cls");
 }
 void printLogo(){
 	SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), 0x02);

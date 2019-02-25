@@ -1,4 +1,3 @@
-#include "decentralize.h"
 //decentralize student
 int decentralizeStu(char username[])
 {
@@ -8,6 +7,6 @@ int decentralizeStu(char username[])
 	}else if(strcmp(username, "SE120113") == 0)
 		{
 			return 2;	
-	}else return 0;
+		}else return 0;
 	
 }

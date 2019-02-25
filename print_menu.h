@@ -6,4 +6,6 @@ int chooseEventMenuM(int* pNum);
 int printFundMenuM(int* pNum);
 int printAnnouncementMenuM(int* pNum);
 int printAnnouncementMenuA(int* pNum);
-
+int printMemberMenuM(int* pNum);
+int printMemberMenuA(int* pNum);
+int printAccSettingMenu(int* pNum);
