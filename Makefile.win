@@ -4,8 +4,8 @@
 CPP      = g++.exe
 CC       = gcc.exe
 WINDRES  = windres.exe
-OBJ      = main.o print_logo.o gotoxy.o print_menu.o decentralize.o choice.o getAcc.o menu.o
-LINKOBJ  = main.o print_logo.o gotoxy.o print_menu.o decentralize.o choice.o getAcc.o menu.o
+OBJ      = main.o print_logo.o gotoxy.o print_menu.o decentralize.o choice.o getAcc.o menu.o hidecursor.o
+LINKOBJ  = main.o print_logo.o gotoxy.o print_menu.o decentralize.o choice.o getAcc.o menu.o hidecursor.o
 LIBS     = -L"D:/program files/Dev-Cpp/MinGW64/lib" -L"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/lib"
 INCS     = -I"D:/program files/Dev-Cpp/MinGW64/include" -I"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include"
 CXXINCS  = -I"D:/program files/Dev-Cpp/MinGW64/include" -I"D:/program files/Dev-Cpp/MinGW64/x86_64-w64-mingw32/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include" -I"D:/program files/Dev-Cpp/MinGW64/lib/gcc/x86_64-w64-mingw32/4.9.2/include/c++"
@@ -47,3 +47,6 @@ getAcc.o: getAcc.c
 
 menu.o: menu.c
 	$(CC) -c menu.c -o menu.o $(CFLAGS)
+
+hidecursor.o: hidecursor.c
+	$(CC) -c hidecursor.c -o hidecursor.o $(CFLAGS)

@@ -29,7 +29,7 @@ IncludeVersionInfo=0
 SupportXPThemes=0
 CompilerSet=0
 CompilerSettings=0000000000000000000000000
-UnitCount=15
+UnitCount=17
 
 [VersionInfo]
 Major=1
@@ -191,7 +191,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit16]
-FileName=menu.c
+FileName=hidecursor.c
 CompileCpp=0
 Folder=
 Compile=1
@@ -201,7 +201,7 @@ OverrideBuildCmd=0
 BuildCmd=
 
 [Unit17]
-FileName=menu.h
+FileName=hidecursor.h
 CompileCpp=0
 Folder=
 Compile=1

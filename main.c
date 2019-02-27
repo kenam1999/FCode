@@ -2332,6 +2332,8 @@ void writeEAL(FILE* pFile){
 	int chooseNumber;
 	int numAcc;
 	
+	hidecursor();
+	
 	do{		
 		fflush(stdin);
 		getUsername(username);
