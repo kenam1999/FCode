@@ -429,50 +429,84 @@ void editMem(int numStu, int number, FILE* pAcc)
 								case 1:
 									system("cls");
 									strcpy(tmp, tmpName);
-									while (strlen(tmp) < 28)
+									while (strlen(tmp) < 48)
 									{
 										strcat(tmp, " ");
 									}
-									printf("\n\n\n\n\n\n\n\n");
-									printf("\t\t\t.---------------------------------------------------------------\n");
-									printf("\t\t\t| *%s|", tmp);
+									printf("\n%35.0s");
+									printfGreen("EDIT YOUR ACCOUT");
+									printf("\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									printf("|                      Name                        |    Sex     |Student Code|\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									printf(": ");
+									printfH(tmp);
+									printf(" : ");
 								//	deleteOddSpace(tmpName);
 									//printf("_");
-									printf("\t%s", tmpSex);
-									printf(" ^|v     |");
-									printf(" %s\t|\n", tmpCode);
-									printf("\t\t\t.---------------------------------------------------------------\n");						
+									printf(" %s", tmpSex);
+									gotoxy(59, 5);
+									printf(" ^|v ");
+									printf(": ");
+									printf("%s", tmpCode);
+									gotoxy(77, 5);
+									printf(":\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
 									break;
 								case 2:
 									system("cls");
-									while (strlen(tmpName) < 28)
+									strcpy(tmp, tmpName);
+									while (strlen(tmp) < 48)
 									{
-										strcat(tmpName, " ");
+										strcat(tmp, " ");
 									}
-									printf("\n\n\n\n\n\n\n\n");
-									printf("\t\t\t.---------------------------------------------------------------\n");
-									printf("\t\t\t| %s|", tmpName);
-									deleteOddSpace(tmpName);
-									printf("\t\t*%s", tmpSex);
-									printf(" ^|v     |");
-									printf(" %s\t|\n", tmpCode);
-									printf("\t\t\t.---------------------------------------------------------------\n");						
+									printf("\n%35.0s");
+									printfGreen("EDIT YOUR ACCOUT");
+									printf("\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									printf("|                      Name                        |    Sex     |Student Code|\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									printf(": ");
+									printf(tmp);
+									printf(" : ");
+								//	deleteOddSpace(tmpName);
+									//printf("_");
+									printf(" %s", tmpSex);
+									gotoxy(59, 5);
+									printfH(" ^|v ");
+									printf(": ");
+									printf("%s", tmpCode);
+									gotoxy(77, 5);
+									printf(":\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
 									break;
 								case 3:
 									system("cls");
-									while (strlen(tmpName) < 28)
+									strcpy(tmp, tmpName);
+									while (strlen(tmp) < 48)
 									{
-										strcat(tmpName, " ");
+										strcat(tmp, " ");
 									}
-									printf("\n\n\n\n\n\n\n\n");
-									printf("\t\t\t.---------------------------------------------------------------\n");
-									printf("\t\t\t| %s|", tmpName);
-									deleteOddSpace(tmpName);
-									printf("\t\t %s", tmpSex);
-									printf(" ^|v     |");
-									printf("*%s\t|\n", tmpCode);	
-									printf("\t\t\t.---------------------------------------------------------------\n");					
-									break;		
+									printf("\n%35.0s");
+									printfGreen("EDIT YOUR ACCOUT");
+									printf("\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									printf("|                      Name                        |    Sex     |Student Code|\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									printf(": ");
+									printf(tmp);
+									printf(" : ");
+								//	deleteOddSpace(tmpName);
+									//printf("_");
+									printf(" %s", tmpSex);
+									gotoxy(59, 5);
+									printf(" ^|v ");
+									printf(": ");
+									printfH(tmpCode);
+									gotoxy(77, 5);
+									printf(":\n");
+									printf(":--------------------------------------------------:------------:------------:\n");
+									break;
 								
 							}
 							temp = getch();
@@ -2332,7 +2366,7 @@ void writeEAL(FILE* pFile){
 	int chooseNumber;
 	int numAcc;
 	
-	hidecursor();
+//	hidecursor();
 	
 	do{		
 		fflush(stdin);
