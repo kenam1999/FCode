@@ -39,13 +39,13 @@ void printFCode(){
 }
 void printLogo(){
 	SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), 0x02);
-	printf("%40.0s8888888888        .d8888b.                888          \n");
-	printf("%40.0s888              d88P  Y88b               888          \n");
-	printf("%40.0s888              888    888               888          \n");
-	printf("%40.0s8888888          888         .d88b.   .d88888  .d88b.  \n");
-	printf("%40.0s888              888        d88\"\"88b d88\" 888 d8P  Y8b \n");
-	printf("%40.0s888      888888  888    888 888  888 888  888 88888888 \n");
-	printf("%40.0s888              Y88b  d88P Y88..88P Y88b 888 Y8b.     \n");
-	printf("%40.0s888               \"Y8888P\"   \"Y88P\"   \"Y88888  \"Y8888  \n");
+	printf("%67.0s8888888888        .d8888b.                888          \n");
+	printf("%67.0s888              d88P  Y88b               888          \n");
+	printf("%67.0s888              888    888               888          \n");
+	printf("%67.0s8888888          888         .d88b.   .d88888  .d88b.  \n");
+	printf("%67.0s888              888        d88\"\"88b d88\" 888 d8P  Y8b \n");
+	printf("%67.0s888      888888  888    888 888  888 888  888 88888888 \n");
+	printf("%67.0s888              Y88b  d88P Y88..88P Y88b 888 Y8b.     \n");
+	printf("%67.0s888               \"Y8888P\"   \"Y88P\"   \"Y88888  \"Y8888  \n");
 	SetConsoleTextAttribute (GetStdHandle(STD_OUTPUT_HANDLE), 0x0F);
 }

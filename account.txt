@@ -44,7 +44,7 @@ SE140954 954 14 Nu Vu Thu Giang
 SE140832 832 14 Nam Nguyen Mau Hieu
 SE140830 830 14 Nu Luu Dieu Hoa
 SE140956 956 14 Nu Tran Nguyen Truc Ly
-SE140831 831 14 Nam Nguyen Ke Nam
+SE140831 831 14 Nu Nguyen Ke Nam
 SE140736 736 14 Nu Phong Thanh Nhi
 SE140910 910 14 Nu Pham Thanh Phuong
 SE140867 867 14 Nam Phung Dang Tam
